@@ -1,0 +1,26 @@
+{
+    "name": "tool-bar-basic",
+    "main": "./src/tool-bar-basic",
+    "version": "0.0.0",
+    "description": "My custom tool-bar plugin that adds an atom toolbar with functions that I use everyday",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AlexNewson/tool-bar-basic"
+    },
+    "keywords": [
+        "toolbar",
+        "tool-bar",
+        "tool-bar-basic"
+    ],
+    "dependencies": {},
+    "packageDependencies": {
+        "tool-bar": "^0.1.0"
+    },
+    "consumedServices": {
+        "tool-bar": {
+            "versions": {
+                "^0.1.0": "consumeToolBar"
+            }
+        }
+    }
+}
