@@ -4,7 +4,7 @@
 
 This is a plugin for the [Atom Tool Bar](https://atom.io/packages/tool-bar) package.
 
-My custom tool-bar plugin that adds an atom toolbar with functions that I use everyday.
+This is forked from AlexNewson's original repo, and it's better if you use that as I've changed this to reflect stuff I use.
 
 ## Buttons
 
@@ -17,6 +17,8 @@ My custom tool-bar plugin that adds an atom toolbar with functions that I use ev
 * -
 * **Toggle fullscreen**
 * **Toggle tree-view**
+* **Split screen right**
+* **Split screen down**
 * **Toggle minimap**
 * **Toggle exposé** (requires `expose` package)
 * -
@@ -33,12 +35,12 @@ My custom tool-bar plugin that adds an atom toolbar with functions that I use ev
 * **Opens a terminal window (split bottom)**  (requires `term2` or `term3` or `terminal-plus` package)
 * **Reload window** (if in Dev Mode)
 * **Toggle devtools** (if in Dev Mode)
-* **Git commands** (requires `git-plus` package)
+* **Git commands** (requires `git-control` package)
 * -
 * **Markdown Preview**
 * **HTML preview** (requires `atom-html-preview` package)
 * -
-* **Command Pallet**
+* **Command Pallette**
 * **Settings**
 
 **Note**: The toolbar buttons that require other packages will only appear if you have those packages installed
@@ -51,7 +53,7 @@ First you have to install the `tool-bar` package which is required:
 apm install tool-bar
 ```
 
-Then you install the `tool-bar-basic` package:
+Then you install the `tool-bar-basic` package by AlexNewson:
 
 ```bash
 apm install tool-bar-basic
