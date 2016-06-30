@@ -1,7 +1,7 @@
 {
   "name": "tool-bar-basic",
   "main": "./src/tool-bar-basic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My custom tool-bar plugin that adds an atom toolbar with functions that I use everyday",
   "repository": {
     "type": "git",
