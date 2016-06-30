@@ -54,7 +54,7 @@ module.exports =
         @toolBar.addButton
             'icon': 'columns'
             'callback': 'pane:split-right'
-            'tooltip': 'Split screen hriozontally'
+            'tooltip': 'Split screen horizontally'
             'iconset': 'fa'
 
         @toolBar.addButton
