@@ -101,6 +101,18 @@ module.exports =
             'tooltip': 'Comment'
             'iconset': 'fa'
 
+        @toolBar.addButton
+            'icon': 'html5'
+            'callback': 'html-entities:encode'
+            'tooltip': 'encode html entities'
+            'iconset': 'devicon'
+
+        @toolBar.addButton
+            'icon': 'css3'
+            'callback': 'css-comb:comb'
+            'tooltip': 'Run csscomb'
+            'iconset': 'devicon'
+
         if atom.packages.loadedPackages['atom-beautify']
             @toolBar.addButton
                 'icon': 'star'
