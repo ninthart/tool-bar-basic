@@ -5,7 +5,7 @@
   "description": "An essential tool-bar that adds many commonly used actions",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexNewson/tool-bar-basic"
+    "url": "git+https://github.com/ninthart/tool-bar-basic"
   },
   "keywords": [
     "toolbar",
