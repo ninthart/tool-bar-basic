@@ -2,7 +2,7 @@
   "name": "tool-bar-basic",
   "main": "./src/tool-bar-basic",
   "version": "1.0.1",
-  "description": "My custom tool-bar plugin that adds an atom toolbar with functions that I use everyday",
+  "description": "An essential tool-bar that adds many commonly used actions",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlexNewson/tool-bar-basic"
@@ -10,7 +10,11 @@
   "keywords": [
     "toolbar",
     "tool-bar",
-    "tool-bar-basic"
+    "tool-bar-basic",
+    "tool",
+    "bar",
+    "basic",
+    "menu"
   ],
   "package-dependencies": {
     "tool-bar": "^0.2.0"
