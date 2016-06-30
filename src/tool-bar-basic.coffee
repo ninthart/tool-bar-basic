@@ -51,6 +51,18 @@ module.exports =
             'tooltip': 'Toggle Sidebar'
             'iconset': 'fa'
 
+        @toolBar.addButton
+            'icon': 'columns'
+            'callback': 'pane:split-right'
+            'tooltip': 'Split screen hriozontally'
+            'iconset': 'fa'
+
+        @toolBar.addButton
+            'icon': 'columns fa-rotate-270'
+            'callback': 'pane:split-down'
+            'tooltip': 'Split screen vertically'
+            'iconset': 'fa'
+
         if atom.packages.loadedPackages['minimap']
             @toolBar.addButton
                 'icon': 'eye'
@@ -130,13 +142,20 @@ module.exports =
                 'callback': 'window:toggle-dev-tools'
                 'tooltip': 'Toggle Developer Tools'
 
-        if atom.packages.loadedPackages['git-plus']
+        if atom.packages.loadedPackages['git-control']
             @toolBar.addSpacer()
             @toolBar.addButton
                 'icon' : 'git-plain'
-                'callback' : 'git-plus:menu'
-                'tooltip' : 'Git plus'
+                'callback' : 'git-control:toggle'
+                'tooltip' : 'Git Control'
                 'iconset' : 'devicon'
+
+        if atom.packages.loadedPackages['merge-conflicts']
+            @toolBar.addButton
+                'icon': 'code-fork'
+                'callback': 'merge-conflicts:detect'
+                'tooltip': 'Merge Conflicts'
+                'iconset': 'fa'
 
         if atom.packages.loadedPackages['script']
             @toolBar.addSpacer()
