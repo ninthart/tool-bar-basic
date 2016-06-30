@@ -54,7 +54,7 @@ apm install tool-bar
 Then you install the `tool-bar-basic` package:
 
 ```bash
-apm install tool-bar-awesome
+apm install tool-bar-basic
 ```
 
 ## License
